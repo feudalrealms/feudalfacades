@@ -1,0 +1,18 @@
+//Fake Log Facades By Ausimus 
+model.structure.LogFacadeWall = Aus_Facades/Log/LogMockFacadeWall.DAE
+model.structure.LogFacadeWall.unfinished = Aus_Facades/Log/LogMockFacadeWallUnfinished.DAE
+
+model.structure.LogMockFacadeDoorNarrow = Aus_Facades/Log/LogMockFacadeDoorNarrow.DAE
+model.structure.LogMockFacadeDoorNarrow.unfinished = Aus_Facades/Log/LogMockFacadeWallUnfinished.DAE
+
+model.structure.LogMockFacadeRightStrut = Aus_Facades/Log/LogMockFacadeRightStrut.DAE
+model.structure.LogMockFacadeRightStrut.unfinished = Aus_Facades/Log/LogMockFacadeWallUnfinished.DAE
+
+model.structure.LogMockFacadeLeftStrut = Aus_Facades/Log/LogMockFacadeLeftStrut.DAE
+model.structure.LogMockFacadeLeftStrut.unfinished = Aus_Facades/Log/LogMockFacadeWallUnfinished.DAE
+
+model.structure.LogMockFacadeDoorDouble = Aus_Facades/Log/LogMockFacadeDoorDouble.DAE
+model.structure.LogMockFacadeDoorDouble.unfinished = Aus_Facades/Log/LogMockFacadeWallUnfinished.DAE
+
+model.structure.LogMockFacadeWindow = Aus_Facades/Log/LogMockFacadeWindow.DAE
+model.structure.LogMockFacadeWindow.unfinished = Aus_Facades/Log/LogMockFacadeWallUnfinished.DAE
