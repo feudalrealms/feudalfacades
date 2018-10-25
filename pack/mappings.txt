@@ -21,4 +21,4 @@ model.furniture.tapestry_fr.realms      = FeudalRealms/tapestry/tapestry.wom?Tap
 model.furniture.tapestry_fr.pony        = FeudalRealms/tapestry/tapestry.wom?TapestryMat.texture=TapestryPony.png
 model.furniture.tapestry_fr.blacksmith  = FeudalRealms/tapestry/tapestry.wom?TapestryMat.texture=TapestryBlacksmith.png
 model.furniture.tapestry_fr.battle      = FeudalRealms/tapestry/tapestry.wom?TapestryMat.texture=TapestryBattle.png
-model.furniture.tapestry_fr.knights     = FeudalRealms/tapestry/tapestry.wom?TapestryMat.texture=TapestryKnight.png
+model.furniture.tapestry_fr.knights     = FeudalRealms/tapestry/tapestry.wom?TapestryMat.texture=TapestryKnights.png
