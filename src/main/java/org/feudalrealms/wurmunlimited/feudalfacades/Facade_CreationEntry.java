@@ -38,11 +38,32 @@ public class Facade_CreationEntry {
             FacadeLogWindow.addRequirement(new CreationRequirement(2, ItemList.pegWood, 16, true));
             FacadeLogWindow.addRequirement(new CreationRequirement(3, ItemList.plank, 4, true));
 
-            // Realms Tapestry
+            // Tapestries
             AdvancedCreationEntry FacadeTapRealms = CreationEntryCreator.createAdvancedEntry
                     (SkillList.CLOTHTAILORING, ItemList.clothYardWool, ItemList.tapestryStand, Constants.FRTapestryRealmsTemplateID, false, false, 0.0F, true, true, CreationCategories.DECORATION);
             FacadeTapRealms.addRequirement(new CreationRequirement(1, ItemList.clothYardWool, 7, true));
             FacadeTapRealms.addRequirement(new CreationRequirement(2, ItemList.woolYarn, 6, true));
+
+            AdvancedCreationEntry FacadeTapPony = CreationEntryCreator.createAdvancedEntry
+                    (SkillList.CLOTHTAILORING, ItemList.clothYardWool, ItemList.tapestryStand, Constants.FRTapestryPonyTemplateID, false, false, 0.0F, true, true, CreationCategories.DECORATION);
+            FacadeTapPony.addRequirement(new CreationRequirement(1, ItemList.clothYardWool, 7, true));
+            FacadeTapPony.addRequirement(new CreationRequirement(2, ItemList.woolYarn, 6, true));
+
+            AdvancedCreationEntry FacadeTapBlacksmith = CreationEntryCreator.createAdvancedEntry
+                    (SkillList.CLOTHTAILORING, ItemList.clothYardWool, ItemList.tapestryStand, Constants.FRTapestryBlacksmithTemplateID, false, false, 0.0F, true, true, CreationCategories.DECORATION);
+            FacadeTapBlacksmith.addRequirement(new CreationRequirement(1, ItemList.clothYardWool, 7, true));
+            FacadeTapBlacksmith.addRequirement(new CreationRequirement(2, ItemList.woolYarn, 6, true));
+
+            AdvancedCreationEntry FacadeTapBattle = CreationEntryCreator.createAdvancedEntry
+                    (SkillList.CLOTHTAILORING, ItemList.clothYardWool, ItemList.tapestryStand, Constants.FRTapestryBattleTemplateID, false, false, 0.0F, true, true, CreationCategories.DECORATION);
+            FacadeTapBattle.addRequirement(new CreationRequirement(1, ItemList.clothYardWool, 7, true));
+            FacadeTapBattle.addRequirement(new CreationRequirement(2, ItemList.woolYarn, 6, true));
+
+            AdvancedCreationEntry FacadeTapKnights = CreationEntryCreator.createAdvancedEntry
+                    (SkillList.CLOTHTAILORING, ItemList.clothYardWool, ItemList.tapestryStand, Constants.FRTapestryKnightsTemplateID, false, false, 0.0F, true, true, CreationCategories.DECORATION);
+            FacadeTapKnights.addRequirement(new CreationRequirement(1, ItemList.clothYardWool, 7, true));
+            FacadeTapKnights.addRequirement(new CreationRequirement(2, ItemList.woolYarn, 6, true));
+
         }
     }
 }

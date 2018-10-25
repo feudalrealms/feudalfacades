@@ -22,6 +22,10 @@ public class Initiator implements WurmServerMod, Configurable, ItemTemplatesCrea
         Constants.LFWindowTemplateID = Integer.parseInt(properties.getProperty("LFWindowTemplateID", Integer.toString(Constants.LFWindowTemplateID)));
 
         Constants.FRTapestryRealmsTemplateID = Integer.parseInt(properties.getProperty("FRTapestryRealmsTemplateID", Integer.toString(Constants.FRTapestryRealmsTemplateID)));
+        Constants.FRTapestryPonyTemplateID = Integer.parseInt(properties.getProperty("FRTapestryPonyTemplateID", Integer.toString(Constants.FRTapestryPonyTemplateID)));
+        Constants.FRTapestryBlacksmithTemplateID = Integer.parseInt(properties.getProperty("FRTapestryBlacksmithTemplateID", Integer.toString(Constants.FRTapestryBlacksmithTemplateID)));
+        Constants.FRTapestryBattleTemplateID = Integer.parseInt(properties.getProperty("FRTapestryBattleTemplateID", Integer.toString(Constants.FRTapestryBattleTemplateID)));
+        Constants.FRTapestryKnightsTemplateID = Integer.parseInt(properties.getProperty("FRTapestryKnightsTemplateID", Integer.toString(Constants.FRTapestryKnightsTemplateID)));
 
     }
 

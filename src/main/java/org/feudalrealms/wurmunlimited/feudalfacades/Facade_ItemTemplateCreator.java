@@ -102,6 +102,61 @@ public class Facade_ItemTemplateCreator {
                             ItemTypes.ITEM_TYPE_IMPROVE_USES_TYPE_AS_MATERIAL,
                             ItemTypes.ITEM_TYPE_TURNABLE
                     }, (short)60, (short)1, 0, 9223372036854775807L, 5, 5, 205, -10, MiscConstants.EMPTY_BYTE_PRIMITIVE_ARRAY, "model.furniture.tapestry_fr.realms.", 30.0F, 12000, (byte)69, 10000, true);
+            ItemTemplateCreator.createItemTemplate(Constants.FRTapestryPonyTemplateID, "tapestry of ponies", "tapestries", "excellent", "good", "ok", "poor", "A nice woven Tapestry of ponies in a field.",
+                    new short[]{
+                            ItemTypes.ITEM_TYPE_CLOTH,
+                            ItemTypes.ITEM_TYPE_DECORATION,
+                            ItemTypes.ITEM_TYPE_ONE_PER_TILE,
+                            ItemTypes.ITEM_TYPE_DESTROYABLE,
+                            ItemTypes.ITEM_TYPE_IMPROVEITEM,
+                            ItemTypes.ITEM_TYPE_REPAIRABLE,
+                            ItemTypes.ITEM_TYPE_TAPESTRY,
+                            ItemTypes.ITEM_TYPE_NOT_MISSION,
+                            ItemTypes.ITEM_TYPE_IMPROVE_USES_TYPE_AS_MATERIAL,
+                            ItemTypes.ITEM_TYPE_TURNABLE
+                    }, (short)60, (short)1, 0, 9223372036854775807L, 5, 5, 205, -10, MiscConstants.EMPTY_BYTE_PRIMITIVE_ARRAY, "model.furniture.tapestry_fr.pony.", 30.0F, 12000, (byte)69, 10000, true);
+            ItemTemplateCreator.createItemTemplate(Constants.FRTapestryBlacksmithTemplateID, "tapestry of blacksmithing", "tapestries", "excellent", "good", "ok", "poor", "A nice woven Tapestry of a blacksmith doing some hard work.",
+                    new short[]{
+                            ItemTypes.ITEM_TYPE_CLOTH,
+                            ItemTypes.ITEM_TYPE_DECORATION,
+                            ItemTypes.ITEM_TYPE_ONE_PER_TILE,
+                            ItemTypes.ITEM_TYPE_DESTROYABLE,
+                            ItemTypes.ITEM_TYPE_IMPROVEITEM,
+                            ItemTypes.ITEM_TYPE_REPAIRABLE,
+                            ItemTypes.ITEM_TYPE_TAPESTRY,
+                            ItemTypes.ITEM_TYPE_NOT_MISSION,
+                            ItemTypes.ITEM_TYPE_IMPROVE_USES_TYPE_AS_MATERIAL,
+                            ItemTypes.ITEM_TYPE_TURNABLE
+                    }, (short)60, (short)1, 0, 9223372036854775807L, 5, 5, 205, -10, MiscConstants.EMPTY_BYTE_PRIMITIVE_ARRAY, "model.furniture.tapestry_fr.blacksmith.", 30.0F, 12000, (byte)69, 10000, true);
+
+            ItemTemplateCreator.createItemTemplate(Constants.FRTapestryBattleTemplateID, "tapestry of a great battle", "tapestries", "excellent", "good", "ok", "poor", "A nice woven Tapestry of a great battle.",
+                    new short[]{
+                            ItemTypes.ITEM_TYPE_CLOTH,
+                            ItemTypes.ITEM_TYPE_DECORATION,
+                            ItemTypes.ITEM_TYPE_ONE_PER_TILE,
+                            ItemTypes.ITEM_TYPE_DESTROYABLE,
+                            ItemTypes.ITEM_TYPE_IMPROVEITEM,
+                            ItemTypes.ITEM_TYPE_REPAIRABLE,
+                            ItemTypes.ITEM_TYPE_TAPESTRY,
+                            ItemTypes.ITEM_TYPE_NOT_MISSION,
+                            ItemTypes.ITEM_TYPE_IMPROVE_USES_TYPE_AS_MATERIAL,
+                            ItemTypes.ITEM_TYPE_TURNABLE
+                    }, (short)60, (short)1, 0, 9223372036854775807L, 5, 5, 205, -10, MiscConstants.EMPTY_BYTE_PRIMITIVE_ARRAY, "model.furniture.tapestry_fr.battle.", 30.0F, 12000, (byte)69, 10000, true);
+
+            ItemTemplateCreator.createItemTemplate(Constants.FRTapestryKnightsTemplateID, "tapestry of knights", "tapestries", "excellent", "good", "ok", "poor", "A nice woven Tapestry of knights pondering their noble lives.",
+                    new short[]{
+                            ItemTypes.ITEM_TYPE_CLOTH,
+                            ItemTypes.ITEM_TYPE_DECORATION,
+                            ItemTypes.ITEM_TYPE_ONE_PER_TILE,
+                            ItemTypes.ITEM_TYPE_DESTROYABLE,
+                            ItemTypes.ITEM_TYPE_IMPROVEITEM,
+                            ItemTypes.ITEM_TYPE_REPAIRABLE,
+                            ItemTypes.ITEM_TYPE_TAPESTRY,
+                            ItemTypes.ITEM_TYPE_NOT_MISSION,
+                            ItemTypes.ITEM_TYPE_IMPROVE_USES_TYPE_AS_MATERIAL,
+                            ItemTypes.ITEM_TYPE_TURNABLE
+                    }, (short)60, (short)1, 0, 9223372036854775807L, 5, 5, 205, -10, MiscConstants.EMPTY_BYTE_PRIMITIVE_ARRAY, "model.furniture.tapestry_fr.knights.", 30.0F, 12000, (byte)69, 10000, true);
+
 
 
         } catch (IOException ignored) {
