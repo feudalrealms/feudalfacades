@@ -1,6 +1,7 @@
 package org.feudalrealms.wurmunlimited.feudalfacades;
 
 import com.wurmonline.server.items.*;
+import com.wurmonline.server.skills.Skill;
 import com.wurmonline.server.skills.SkillList;
 
 /**
@@ -36,6 +37,12 @@ public class Facade_CreationEntry {
             FacadeLogWindow.addRequirement(new CreationRequirement(1, ItemList.log, 8, true));
             FacadeLogWindow.addRequirement(new CreationRequirement(2, ItemList.pegWood, 16, true));
             FacadeLogWindow.addRequirement(new CreationRequirement(3, ItemList.plank, 4, true));
+
+            // Realms Tapestry
+            AdvancedCreationEntry FacadeTapRealms = CreationEntryCreator.createAdvancedEntry
+                    (SkillList.CLOTHTAILORING, ItemList.clothYardWool, ItemList.tapestryStand, Constants.FRTapestryRealmsTemplateID, false, false, 0.0F, true, true, CreationCategories.DECORATION);
+            FacadeTapRealms.addRequirement(new CreationRequirement(1, ItemList.clothYardWool, 7, true));
+            FacadeTapRealms.addRequirement(new CreationRequirement(2, ItemList.woolYarn, 6, true));
         }
     }
 }

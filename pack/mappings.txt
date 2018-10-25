@@ -16,3 +16,5 @@ model.structure.LogMockFacadeDoorDouble.unfinished = Aus_Facades/Log/LogMockFaca
 
 model.structure.LogMockFacadeWindow = Aus_Facades/Log/LogMockFacadeWindow.DAE
 model.structure.LogMockFacadeWindow.unfinished = Aus_Facades/Log/LogMockFacadeWallUnfinished.DAE
+
+model.furniture.tapestry_fr.realms = FeudalRealms/tapestry/tapestry.wom?TapestryMat.texture=TapestryRealms.png

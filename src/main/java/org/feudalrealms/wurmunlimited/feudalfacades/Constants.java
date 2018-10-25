@@ -11,4 +11,5 @@ public class Constants {
     public static int LFLSTemplateID;
     public static int LFDWTemplateID;
     public static int LFWindowTemplateID;
+    public static int FRTapestryRealmsTemplateID;
 }
